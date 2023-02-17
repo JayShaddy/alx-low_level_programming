@@ -1967,14 +1967,13 @@ int getentropy (void *__buffer, size_t __length) ;
 
 
 
-
-# 8 "101-quote.c"
+# 7 "101-quote.c"
 int main(void)
 {
-fputs("and that piece of art is useful\"- Dora Korpar, 2015-10-19\n",
-# 10 "101-quote.c" 3 4
-                                                                    stdout
-# 10 "101-quote.c"
-                                                                          );
-return(1)
+fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 
+# 9 "101-quote.c" 3 4
+                                                                      stdout
+# 9 "101-quote.c"
+                                                                            );
+return (1);
 }
